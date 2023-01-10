@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here]()
-- Live Site URL: [Click here]()
+- Live Site URL: [Click here](https://md-talim.github.io/News-homepage-solution/)
 
 ## My process
 
