@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+      </picture>
+
+      <img class="menu-icon" src="./assets/images/icon-menu.svg" />
+      <ul class="primary-navigation">
+        <li class="items"><a href="#home" class="links">Home</a></li>
+        <li class="items"><a href="#new" class="links">New</a></li>
+        <li class="items"><a href="#popular" class="links">Popular</a></li>
+        <li class="items"><a href="#trending" class="links">Trending</a></li>
+        <li class="items">
+          <a href="#categories" class="links">Categories</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="container flow">
+      <section id="popular" class="popular flow">
+        <picture>
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="web 3 image"
+            class="web3-img"
+          />
+        </picture>
+        <article class="web3 flow">
+          <h1 class="web3__headline">The Bright Future of Web 3.0?</h1>
+          <div class="web3__description">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="button">Read More</button>
+          </div>
+        </article>
+      </section>
+      <section id="new" class="new flow">
+        <h2>New</h2>
+        <article class="new-article">
+          <h4 class="headline">Hydrogen VS Electric Cars</h4>
+          <p class="description">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </article>
+        <article class="new-article">
+          <h4 class="headline">The Downsides of AI Artistry</h4>
+          <p class="description">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </article>
+        <article class="new-article">
+          <h4 class="headline">Is VC Funding Drying Up?</h4>
+          <p class="description">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </section>
+
+      <section id="trending" class="trending flow">
+        <article class="trending-article">
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="retro pcs"
+            class="trending-img"
+          />
+          <div class="trending-news">
+            <h4 class="trending-headline">
+              <span class="index">01</span>Reviving Retro PCs
+            </h4>
+            <p class="trending-description">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </article>
+        <article class="trending-article">
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt="top laptops"
+            class="trending-img"
+          />
+
+          <div class="trending-news">
+            <h4 class="trending-headline">
+              <span class="index">02</span>Top 10 Laptops of 2022
+            </h4>
+            <p class="trending-description">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </article>
+        <article class="trending-article">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="gaming growth"
+            class="trending-img"
+          />
+          <div class="trending-news">
+            <h4 class="trending-headline">
+              <span class="index">03</span>The Growth of Gaming
+            </h4>
+            <p class="trending-description">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/Md-Talim">Mohammad Talim</a>.
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
